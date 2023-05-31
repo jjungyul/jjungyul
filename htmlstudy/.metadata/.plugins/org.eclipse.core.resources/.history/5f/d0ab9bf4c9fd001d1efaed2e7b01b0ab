@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+div{ /* 일반태그 1점*/
+	/* color: red !important; */ /* ! 무한대*/
+	border: 3px solid;
+	width: 100px;
+	height: 100px;
+	background-image:url('../images/2.jpg')
+}
+
+#color_yellow{color:yellow;} /* 100 id값 */ 
+
+.color_green{color: green;} /* 10 클래스명 */ 
+
+*{color: darkblue;} /* 0 전체선택자 */
+
+
+.list li.item{ }
+.list li:hover{ }
+.box::before{ }
+#submit sapn{ }
+header.menu li:nth-child(2) { }
+hi { }
+:not(.box) { }

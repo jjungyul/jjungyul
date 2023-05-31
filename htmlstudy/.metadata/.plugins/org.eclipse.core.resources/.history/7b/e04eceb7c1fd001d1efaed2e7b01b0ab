@@ -1,0 +1,10 @@
+/**
+ * main.js
+ */
+
+function hello()  {
+	lert('안녕.. 재밌습니다.');
+
+
+ocument.write('karina');
+ocument.write('<h1><font color="blue">DaeBo</font></h1>');

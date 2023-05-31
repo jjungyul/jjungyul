@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+div{ /* 일반태그 1점*/
+	/* color: red !important; */ /* ! 무한대*/
+	border: 3px solid;
+	width: 100px;
+	height: 100px;
+	background-image:
+	url('https://gongu.copyright.or.kr/gongu/wrt/cmmn/wrtFileImageView.do?wrtSn=13323687&filePath=L2Rpc2sxL25ld2RhdGEvMjAyMi8yMS9DTFMxMDAwNi8xMzMyMzY4N19XUlQ=&thumbAt=Y&thumbSe=b_tbumb&wrtTy=10006')
+	/* url('../images/2.jpg') */
+}
+
+#color_yellow{color:yellow;} /* 100 id값 */ 
+
+.color_green{color: green;} /* 10 클래스명 */ 
+
+*{color: darkblue;} /* 0 전체선택자 */
+
+
+.list li.item{ }
+.list li:hover{ }
+.box::before{ }
+#submit sapn{ }
+header.menu li:nth-child(2) { }
+hi { }
+:not(.box) { }

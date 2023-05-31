@@ -1,0 +1,5 @@
+@charset "UTF-8";
+img{
+	color: lime;
+	border: 15px dotted;
+}

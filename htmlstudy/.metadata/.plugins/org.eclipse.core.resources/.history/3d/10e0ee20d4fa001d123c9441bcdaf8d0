@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>퀴즈</title>
+<style>
+	table{ margin: auto; width: 1200; }
+	 h1 { text-align: center;}
+	#phone{width:50px;}
+	th{width:116px;}
+	
+</style>
+</head>
+<body>
+	<h1>회원 정보 입력</h1>
+<table border = "1">
+	
+	<tr>
+	<th>ID</th>
+	<td><input type="text" name="id" id="ID" placeholder="ID입력"></td>
+	</tr>
+	
+	<tr>
+	<th>Password</th>
+	<td><input type="password" name="pwd" id="pwd" placeholder="Password 입력"></td>
+	</tr>
+	
+	<tr>
+	<th>Password확인</th>
+	<td><input type="password" name="pwd" id="pwd" placeholder="Password 재입력"></td>
+	</tr>
+	
+	<tr>
+	<th>이 름</th>
+	<td><input type="text" name="irum" id="name" placeholder="이름 입력"></td>
+	</tr>
+	
+	<tr>
+	<th>전화 번호</th>
+	<td ><select><option>010</option></select> - <input type="text" id="phone"> - <input type="text" id="phone"></td>
+	
+	</tr>
+	
+	<tr>
+	<th>직 업</th>
+	<td><select>
+		<option>직업 선택</option>
+		<option>자영업자</option>
+		<option>개발자</option>
+		<option>놀자</option>
+		<option>먹자</option>
+		<option>자자</option>
+	</select></td>
+	</tr>
+	
+	<tr>
+	<th>성 별</th>
+	<td><input type="radio" name="opt" checked>남
+	<input type="radio">여</td>
+	</tr>
+	
+	<tr>
+	<th>취 미</th>
+	<td>	<input type="checkbox"> 독서
+	<input type="checkbox"> 수영
+	<input type="checkbox"> 게임
+	<input type="checkbox"> 영화감상
+	<input type="checkbox"> 음악듣기</td>
+	</tr>
+	
+	<tr>
+	<th> 자기소개</th>
+	<td><textarea rows="10" cols="55"></textarea></td>
+	</tr>
+	
+	<tr>
+	<th colspan="2"><input type="submit" value="등록하기"><input type="reset" value="취소하기"></th>
+	</tr>
+	
+</table>
+</body>
+</html>

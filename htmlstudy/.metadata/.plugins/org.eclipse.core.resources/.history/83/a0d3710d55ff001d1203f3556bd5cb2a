@@ -1,0 +1,9 @@
+/** day46-2.js */
+
+const boxEl = document.querySelector('.box');
+console.log(boxEl);
+//Getter, 값을 얻는 용도
+console.log(boxEl.textContent);
+//Setter, 값을 셋팅(지정)하는 용도
+boxEl.textContent = "Yuna!!"
+console.log(boxEl.textContent);

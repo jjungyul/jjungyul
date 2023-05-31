@@ -1,0 +1,37 @@
+/** day46-2.js */
+import getType from './userFun';
+
+
+console.log(typeof'Hello World!');
+console.log(typeof 123);
+console.log(typeof true);
+console.log(typeof undefined);
+console.log(typeof null);
+console.log(typeof {});
+console.log(typeof []);
+
+
+
+console.log(getType(123));
+console.log(getType(false));
+console.log(getType({}));
+console.log(getType([]));
+console.log(getType(null));
+
+const a = 'DaeBo!';
+//split : 문자를 인수 기준으로 쪼개서 배열로 반환
+//reverse : 배열을 뒤집기
+//join : 배열을 인수 기준으로 문자로 병합해 반환.
+
+const b = a.split('').reverse().join(''); //메소드 체이닝
+console.log(a);
+console.log(b);
+
+
+const boxEl = document.querySelector('.box');
+console.log(boxEl);
+//Getter, 값을 얻는 용도
+console.log(boxEl.textContent);
+//Setter, 값을 셋팅(지정)하는 용도
+boxEl.textContent = "Yuna!!"
+console.log(boxEl.textContent);

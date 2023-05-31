@@ -1,0 +1,12 @@
+
+5월 26, 2023 18:14:11.798 NEW SESSION
+5월 26, 2023 18:14:11.798 [16824:6232:0526/180416.281:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+5월 26, 2023 18:14:11.801 [16824:6232:0526/181411.800:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+5월 26, 2023 18:14:14.820 [16824:12400:0526/181414.820:ERROR:device_event_log_impl.cc(222)] [18:14:14.818] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+
+5월 31, 2023 09:19:53.570 NEW SESSION
+5월 31, 2023 09:19:53.570 [13240:7100:0531/091953.568:ERROR:cert_verify_proc_builtin.cc(679)] CertVerifyProcBuiltin for code.jquer.com failed:
+5월 31, 2023 09:19:53.571 ----- Certificate i=0 (CN=*.parkingcrew.net,O=Team Internet AG,L=M\C3\BCnchen,ST=Bayern,C=DE) -----
+5월 31, 2023 09:19:53.572 ERROR: Time is after notAfter
+5월 31, 2023 09:19:53.572 
+5월 31, 2023 09:19:53.572 

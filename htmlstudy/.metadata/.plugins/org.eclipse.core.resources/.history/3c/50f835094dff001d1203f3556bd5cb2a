@@ -1,0 +1,27 @@
+/** day46.js */
+
+//HTML 요소(Element) 1개 검색/찾기
+const boxEl = document.querySelector('.box');
+//boxEl.addEventListener(1,2); 1번째는 이벤트명 , 2번째는 할일
+boxEl.addEventListener('click',function(){
+	console.log('Click~~~');
+});
+
+let isShow = true;
+let checked = false;
+
+if(isShow) {
+	console.log('Show!');
+}
+
+if(checked) {
+	console.log('Checked!');
+}
+
+if(isShow) {
+	console.log('Show!');
+}else {
+	console.log('Hide?');
+}
+
+

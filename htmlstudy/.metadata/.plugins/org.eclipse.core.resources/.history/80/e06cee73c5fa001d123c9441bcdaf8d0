@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ex08_input.html</title>
+</head>
+<body>
+<form action="" method="get">
+	id:<input type ="text" name="id"> <br><br>
+	내용:<textarea row="10"cols="55"></textarea>
+</form>
+
+
+</body>
+</html>
