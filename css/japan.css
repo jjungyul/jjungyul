@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+#main {
+  background-image: url("./images/일본bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body {
+  font: 15px "Nanum Gothic", sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+.val {
+  background: red;
+  margin: 0 auto;
+  width: 900px;
+  height: 60px;
+}
+
+.val ul {
+  list-style: none;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.val ul li {
+  display: inline;
+  float: left;
+  font-size: 15px;
+}
+.val a,
+.navi a:visited {
+  padding: 10px 5px 5px 35px;
+  display: block;
+  color: #fff;
+  width: 150px;
+  text-decoration: none;
+}
+.val a:hover,
+.val a:active,
+.val a:focus {
+  text-shadow: 0px 2px 2px #000;
+  color: yellow;
+}
+
+footer {
+  padding: 10px 0;
+  background-color: #cc0303;
+  color: #fff;
+  text-align: center;
+  clear: both;
+}
+
+.banner {
+  margin: auto;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #404040;
+}
+
+li {
+  list-style: none;
+}
+
+/*BODY*/
+
+/*팝업창*/
+#popup0 {
+  display: none; /*숨기기*/
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+#popup1 {
+  display: none; /*숨기기*/
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+}
+#popup2 {
+  display: none; /*숨기기*/
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+}
+#popup3 {
+  display: none; /*숨기기*/
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+}
+#popup4 {
+  display: none; /*숨기기*/
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+}
+#popmenu {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  background: #fff;
+}
+
+#popmenu p {
+  margin-top: 80px;
+}
+
+.exit {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translate(-50%, 0);
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  background: #007aae;
+  cursor: pointer;
+}
+
+/*본문내용*/
+/* #navi {
+    width: 500px;
+    height: 100;
+    text-align: center;
+    line-height: 150px;
+    color: #fff;
+    background: blue;
+    cursor: pointer;
+} */
