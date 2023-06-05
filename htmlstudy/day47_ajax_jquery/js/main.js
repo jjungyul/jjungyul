@@ -47,12 +47,33 @@ const Person = {
 
 console.log('-------------------------')
 const numbers = [1,2,3,4,5,6]
-const fruits = ['Apple','Banana','Cherry']
+const fruits = ['Apple1','Banana2','Cherry3','Orange4']
 
 let[x,y] = [10,20] //구조분해할당
 let[x1,y2, ...rest] = [10,20,3,4,5,6,7]
 
 const[ff, g, h, i, j] = fruits
+console.log('-------------------------')
+console.log(fruits) // ['Apple', 'Banana', 'Cherry']
+console.log(...fruits) // Apple Banana Cherry
+
+console.log('********************************')
+/*
+function toObject(xx,yy,...zz){
+    return{
+        xx:xx
+        ,yy:yy
+        ,zz:zz
+    }
+}
+*/
+const toObject =(xx,yy,...zz) => ( { xx, yy, zz} )  
+console.log(toObject(...fruits));
+//console.log(toObject(fruits[0],fruits[1],fruits[2]));
+console.log('********************************')
+const[, , z] = fruits // Banana
+//const[, , z] = fruits //Cherry
+console.log(ff,z)
 console.log(fruits)
 console.log(ff)
 console.log(i) // undefined
